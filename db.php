@@ -1,0 +1,15 @@
+<?php
+$mysqli_hostname = "localhost";
+$mysqli_user = "root";
+$mysqli_password = "";
+$mysqli_database = "ticket";
+$prefix = "";
+$conn = mysqli_connect($mysqli_hostname, $mysqli_user, $mysqli_password,$mysqli_database) or die("Could not connect database");
+// if ($conn){
+//     echo "server connected successfully";
+//
+// }
+// else{
+//     echo "server not connected";
+// }
+?>
