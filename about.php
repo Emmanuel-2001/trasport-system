@@ -27,8 +27,6 @@
           <li><a class="fas fa-info-circle" href="about.php">About</a></li>
           <li><a class="fa fa-server" href="services.php">Services</a></li>
           <li><a class="fas fa-road" href="routes.php">Routes</a></li>
-          <li><a class="fas fa-map-marker" href="location.php">location</a></li>
-
           <li><a class="fa fa-phone-square" href="contact.php"> Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -183,69 +181,47 @@
       </div>
     </section><!-- End STAFF Section -->
 
-    <section id="gallery">
-      <h1 class="center">Gallery</h1>
-      <p class="center"> Here are the vehicles that we used to provide our services to our customers. Our vehicles
-        comply with the traffic act rules. </p>
-      <div class="flexbox">
-        <div>
-          <img alt="Loading" height="300" src="images/bus1.jpeg" width="300">
-          <p>Bus 1</p>
-        </div>
-        <div>
-          <img alt="Loading" height="300" src="images/bus2.jpeg" width="300">
-          <p>Bus 2</p>
-        </div>
-        <div>
-          <img alt="Loading" height="300" src="images/bus3.jpeg" width="300">
-          <p>Bus 3</p>
-        </div>
-        <div>
-          <img alt="Loading" height="300" src="images/bus5.jpeg" width="300">
-          <p>Bus 4</p>
-        </div>
+      <div class="container-fluid">
+          <div class="row">
+              <div class="col-6 bg-dark">
+                  <div>
+                      <div style="padding-top: 20px">
+                          <div class="item" style="width: 660px;">
+                              <div id="footer" class="start-0">
+                                  <h4>+254-768976971 &bull; <a href="contact-us.php">kitui town, Nairobi, Machakos town  </a></h4>
+                                  <p class="text-info">Hours of Operation&nbsp;&nbsp;&bull;&nbsp;&nbsp;Mon - Sun: 6:00 am - 6:00 pm</p>
+                                  <a href="index.php"><img src="xres/images/footer-log.jpg" alt="Madocho Sacco" /></a>
+                                  <p>&copy; Copyright fairchild 2022 | All Rights Reserved <br /></p>
+                              </div>
+                          </div>
 
+                      </div>
+                  </div>
+              </div>
+              <div class="col-6 bg-light">
+                  <div class="row bg-primary p-2">
+                      <div class="col-7">
+                          <nav >
+                              <div class="container-fluid">
+                                  <form class="d-flex">
+                                      <div style="padding-top: 50px font-size:30px height:300px" class="text-white">
+                                          <div class="media-icons">
+                                              <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                              <a href="#"><i class="fab fa-twitter"></i></a>
+                                              <a href="#"><i class="fab fa-instagram"></i></a>
+                                              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                              <a href="#"><i class="fab fa-youtube"></i></a>
+                                          </div>
+                                      </div>
+                                  </form>
+                              </div>
+                          </nav>
+                      </div>
+                  </div>
+              </div>
+          </div>
       </div>
-      <div class="flexbox">
-        <div>
-          <img alt="Loading" height="300" src="images/03.jpeg" width="300">
-          <p>Bus 5</p>
-        </div>
-        <div>
-          <img alt="Loading" height="300" src="images/bus10.jpeg" width="300">
-          <p>Bus 6</p>
-        </div>
-        <div>
-          <img alt="Loading" height="300" src="images/bus7.jpeg" width="300">
-          <p>Bus 7</p>
-        </div>
-        <div>
-          <img alt="Loading" height="300" src="images/bus6.jpeg" width="300">
-          <p>Bus 8</p>
-        </div>
 
-      </div>
-    </section>
-    <div id="featured">
-        <div id="items">
-            <div class="item"> <a href="main-course.php"><img src="xres/images/01_featured.jpg" alt="" /></a>
-                <h3><a href="main-course.php">Specials Offers</a></h3>
-                <p><a href="#"><strong>springers Bus</strong><br />
-                        Come in and experience<br /> Our
-                        new Bus Type<br /> specials today!</a></p>
-            </div>
-            <div class="item"> <a href="#"><img src="xres/images/02_featured.jpg" alt="" /></a>
-                <h3><a href="#">New Route</a></h3>
-                <p><a href="#"><strong>from Nairobi to Konza and vice-versa</strong><br />
-                        Spend a relaxing evening in our madocho hotels. </a></p>
-            </div>
-            <div class="item" style="width: 860px;">
-            <div id="footer" class="center">
-        <h4>+254-768976971 &bull; <a href="contact-us.php">kitui town, Nairobi, Machakos town  </a></h4>
-        <p class="text-info">Hours of Operation&nbsp;&nbsp;&bull;&nbsp;&nbsp;Mon - Sun: 6:00 am - 6:00 pm</p>
-        <a href="index.php"><img src="xres/images/footer-log.jpg" alt="Madocho Sacco" /></a>
-        <p>&copy; Copyright fairchild 2022 | All Rights Reserved <br /></p>
-    </div>
 
 
 

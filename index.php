@@ -25,18 +25,15 @@
           <nav id="navbar" class="navbar order-last order-lg-0">
             <ul>
               <li><a class="fa fa-home" href="index.php">Home</a></li>
-              <li><a class="fas fa-info-circle" href="about.php">About</a></li>
-              <li><a class="fa fa-server" href="services.php">Services</a></li>
-              <li><a class="fas fa-road" href="routes.php">Routes</a></li>
-              <li><a class="fas fa-map-marker" href="location.php">location</a></li>
-           
-              <li><a class="fa fa-phone-square" href="contact.php"> Contact</a></li>
-          </ul>
+            </ul>   </nav>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+                <a href="logina.php" class="appointment-btn scrollto"><span class="d-none d-md-inline">login</span>
+                </a>
           <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav>
+
     
-      <a href="book.php" class="appointment-btn scrollto"><span class="d-none d-md-inline">book</span>
-          now</a>
+      <a href="sign.php" class="appointment-btn scrollto"><span class="d-none d-md-inline">sign</span>
+          up</a>
     
         </div>
       </header>

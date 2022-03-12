@@ -138,10 +138,9 @@
    
         <ul id="mainnav">
 		<li><a class="fa fa-home" href="index.php">Home</a></li>
-              <li><a class="fas fa-server" href="about.php">About</a></li>
+              <li><a class="fas fa-info-circle" href="about.php">About</a></li>
               <li><a class="fa fa-server" href="services.php">Services</a></li>
-              <li><a class="fas fa-server" href="routes.php">Routes</a></li>
-              <li><a class="fas fa-map-marker" href="location.php">location</a></li>
+              <li><a class="fas fa-road" href="routes.php">Routes</a></li>
               <li><a class="fa fa-phone-square" href="contact.php"> Contact</a></li>
 			  <li> <a href="book.php" class="appointment-btn scrollto"><span class="d-none d-md-inline">book</span>
           now</a></li>

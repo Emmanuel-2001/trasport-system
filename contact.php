@@ -40,8 +40,6 @@
           <li><a class="fas fa-info-circle" href="about.php">About</a></li>
           <li><a class="fa fa-server" href="services.php">Services</a></li>
           <li><a class="fas fa-road" href="routes.php">Routes</a></li>
-          <li><a class="fas fa-map-marker" href="location.php">location</a></li>
-
           <li><a class="fa fa-phone-square" href="contact.php"> Contact</a></li>
       </ul>
       <i class="bi bi-list mobile-nav-toggle"></i>
@@ -135,7 +133,7 @@
                             <div class="error-message">message not sent. Please try again </div>
                             <div class="sent-message">Your message has been sent. Thank you!</div>
                         </div>
-                        <div class="text-center rounded-pill bg-warning">  <input type="submit"  name="submit" value="send Message" onclick="window.alert('Hello'+' '+ document.alertform.fullname.value+' '+'We are glad to here from you');">
+                        <div >  <input class="text-center rounded-pill bg-warning" type="submit"  name="submit" value="send Message" onclick="window.alert('Hello'+' '+ document.alertform.fullname.value+' '+'We are glad to here from you');">
 </div>
   
                     </form>
@@ -174,7 +172,7 @@ VALUES ('".$_POST["fullName"]."','".$_POST["phoneNumber"]."','".$_POST["subject"
 
 if ($conn->query($sql) === TRUE) {
 echo "<script type= 'text/javascript'>alert('Sent successfully ');</script>";
-echo "<script type='text/javascript'>location.href = 'home.php';</script>";
+echo "<script type='text/javascript'>location.href = 'contact.php';</script>";
 } else {
 echo "<script type= 'text/javascript'>alert('Error: " . $sql . "<br>" . $conn->error."');</script>";
 }

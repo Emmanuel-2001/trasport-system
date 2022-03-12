@@ -21,18 +21,17 @@
       <h1 class="logo me-auto"><a href="index.php"><img class=" rounded-circle" alt="Loading" height="60" src="images/logo.png" width="50"> </a></h1>
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="fa fa-home" href="home.php">Home</a></li>
+          <li><a class="fa fa-home" href="index.php">Home</a></li>
           <li><a class="fas fa-info-circle" href="about.php">About</a></li>
           <li><a class="fa fa-server" href="services.php">Services</a></li>
           <li><a class="fas fa-road" href="routes.php">Routes</a></li>
-          <li><a class="fas fa-map-marker" href="location.php">location</a></li>
        
           <li><a class="fa fa-phone-square" href="contact.php"> Contact</a></li>
       </ul>
       <i class="bi bi-list mobile-nav-toggle"></i>
   </nav>
 
-  <a href="index.php" class="appointment-btn scrollto"><span class="d-none d-md-inline">book</span>
+  <a href="book.php" class="appointment-btn scrollto"><span class="d-none d-md-inline">book</span>
       now</a>
 
 
