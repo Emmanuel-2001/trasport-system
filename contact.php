@@ -104,7 +104,7 @@
 
                 <div class="col-lg-8 mt-5 mt-lg-0">
                 <div>
-    <h3 style="text-align:center;"><a href="index.php?link=feedback"><i class="fa fa-arrow-circle-o-left" style="font-size: 30px; margin: 20px;" ></i></a>Tell Us Something!!! </h3> 
+    <h3 style="text-align:center;"><a href="contact.php?link=feedback"><i class="fa fa-arrow-circle-o-left" style="font-size: 30px; margin: 20px;" ></i></a>Tell Us Something!!! </h3>
     <hr width="90%" color="#ccc">
     <a href="tel:0768976971" style="text-decoration: none"><i class="fa fa-phone" style='font-size:20px;color:green;padding: 3px;'></i><font style="color: skyblue;">Click to Call 0768976971</font></a><br><br>
   </div><br><br>
@@ -181,47 +181,25 @@ $conn->close();
 }
 ?>
     </section>
-  <div id="featured" class="center">
-      <div id="items" class="center">
-          <div class="item"> <a href="main-course.php"><img src="xres/images/01_featured.jpg" alt="" /></a>
-              <h3><a href="main-course.php">Specials Offers</a></h3>
-              <p><a href="#"><strong>springers Bus</strong><br />
-                      Come in and experience<br /> Our
-                      new Bus Type<br /> specials today!</a></p>
-          </div>
-          <div class="item"> <a href="#"><img src="xres/images/02_featured.jpg" alt="" /></a>
-              <h3><a href="#">New Route</a></h3>
-              <p><a href="#"><strong>from Nairobi to Konza and vice-versa</strong><br />
-                      Spend a relaxing evening in our madocho hotels. </a></p>
-          </div>
-          <div class="item" style="width: 860px;">
+   </body>
+<footer class="progress-bar">
+    <div class="content">
+        <div class="top">
+            <div class="logo-details">
+                <i class="fab fa-slack"></i>
+                <span class="logo_name">MADOCHO SACCO</span>
+            </div>
+            <div class="media-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
 
-          <div id="footer" class="center">
-      <h4 class="text-danger">+254-768976971 &bull; <a href="contact-us.php"> <i class="text-warning">kitui town, Nairobi, Machakos town</i>  </a></h4>
-      <p class="text-info">Hours of Operation&nbsp;&nbsp;&bull;&nbsp;&nbsp;Mon - Sun: 6:00 am - 6:00 pm</p>
-      <a href="index.php"><img src="xres/images/footer-log.jpg" alt="Madocho Sacco" /></a>
-      <p class="text-dark">&copy; Copyright fairchild 2022 | All Rights Reserved <br /></p>
-  </div>
-    </body>
-<!--    <footer class="progress-bar">-->
-<!--        <div class="content">-->
-<!--            <div class="top">-->
-<!--              <div class="logo-details">-->
-<!--                <i class="fab fa-slack"></i>-->
-<!--                <span class="logo_name">MADOCHO SACCO</span>-->
-<!--              </div><br>-->
-<!--              <div class="media-icons">-->
-<!--                <a href="#"><i class="fab fa-facebook-f"></i></a>-->
-<!--                <a href="#"><i class="fab fa-twitter"></i></a>-->
-<!--                <a href="#"><i class="fab fa-instagram"></i></a>-->
-<!--                <a href="#"><i class="fab fa-linkedin-in"></i></a>-->
-<!--                <a href="#"><i class="fab fa-youtube"></i></a> -->
-<!--              -->
-<!--              </div>-->
-<!--            </div>-->
-<!--            </div>-->
-<!--          -->
-<!--                    </footer>-->
                     <script>
                       let nav = document.querySelector("nav");
                         window.onscroll = function() {

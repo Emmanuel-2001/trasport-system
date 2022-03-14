@@ -42,6 +42,7 @@
     <section id="about.php#lorries">
       <div class="homepage">
         <div class="hrstext">
+
                 <h1 class="rounded-pill ">Welcome to about page</h1>
                 <h3 class="text-info">You want to know more about us? </h3>
 
@@ -50,39 +51,14 @@
 
           </div>
     </section>
-    <!-- <section id="about.html#buses">
-      <h1 class="center">Buses</h1>
-   
-      <div class="flexbox">
-        <div>
-          <h3 class="center text-danger">driv 1</h3>
-          <p> <em class="text-center text-primary"> Mercy Wambui  </em> <br>
-             <img class=" rounded-circle" alt="Loading" height="400" src="images/bus1.jpeg" width="400"></p>
-        </div>
-        <div>
-          <h3 class="center text-danger">driv 2</h3>
-          <p> <em class="text-center text-primary"> jamo muli </em><br><img class=" rounded-circle" alt="Loading" height="400" src="images/bus2.jpeg" width="400"></p>
-        </div>
-        <div>
-          <h3 class="center text-danger">driver </h3>
-          <p> <em class="text-center text-primary"> charles </em> <br> <img class=" rounded-circle" alt="Loading" height="400" src="images/bus3.jpeg" width="400"></p>
-        </div>
 
-
-      </div>
-      <div>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi distinctio optio iste ut non, aspernatur,
-        temporibus incidunt voluptatem vero aliquam eos tempore hic inventore rerum nulla eius possimus placeat illum.
-      </div>
-
-    </section> -->
     <!-- ======= STAFF Section ======= -->
     <section id="ABOUT US" class="STAFF">
       <div class="container">
 
         <div class="section-title">
           <h2>STAFF</h2>
-          <p> Below is our qualified pesonel that is hardworking for the success of Madocho
+          <p> Below is our qualified personel that is working hard for the success of Madocho
             Sacco and ensuring our customers receive the best services </p>
         </div>
 
@@ -181,68 +157,24 @@
       </div>
     </section><!-- End STAFF Section -->
 
-      <div class="container-fluid">
-          <div class="row">
-              <div class="col-6 bg-dark">
-                  <div>
-                      <div style="padding-top: 20px">
-                          <div class="item" style="width: 660px;">
-                              <div id="footer" class="start-0">
-                                  <h4>+254-768976971 &bull; <a href="contact-us.php">kitui town, Nairobi, Machakos town  </a></h4>
-                                  <p class="text-info">Hours of Operation&nbsp;&nbsp;&bull;&nbsp;&nbsp;Mon - Sun: 6:00 am - 6:00 pm</p>
-                                  <a href="index.php"><img src="xres/images/footer-log.jpg" alt="Madocho Sacco" /></a>
-                                  <p>&copy; Copyright fairchild 2022 | All Rights Reserved <br /></p>
-                              </div>
-                          </div>
-
-                      </div>
-                  </div>
-              </div>
-              <div class="col-6 bg-light">
-                  <div class="row bg-primary p-2">
-                      <div class="col-7">
-                          <nav >
-                              <div class="container-fluid">
-                                  <form class="d-flex">
-                                      <div style="padding-top: 50px font-size:30px height:300px" class="text-white">
-                                          <div class="media-icons">
-                                              <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                              <a href="#"><i class="fab fa-twitter"></i></a>
-                                              <a href="#"><i class="fab fa-instagram"></i></a>
-                                              <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                              <a href="#"><i class="fab fa-youtube"></i></a>
-                                          </div>
-                                      </div>
-                                  </form>
-                              </div>
-                          </nav>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-
-
-
-
   </body>
-<!--  <footer class="progress-bar">-->
-<!--    <div class="content">-->
-<!--      <div class="top">-->
-<!--        <div class="logo-details">-->
-<!--          <i class="fab fa-slack"></i>-->
-<!--          <span class="logo_name">MADOCHO SACCO</span>-->
-<!--        </div>-->
-<!--        <div class="media-icons">-->
-<!--          <a href="#"><i class="fab fa-facebook-f"></i></a>-->
-<!--          <a href="#"><i class="fab fa-twitter"></i></a>-->
-<!--          <a href="#"><i class="fab fa-instagram"></i></a>-->
-<!--          <a href="#"><i class="fab fa-linkedin-in"></i></a>-->
-<!--          <a href="#"><i class="fab fa-youtube"></i></a>-->
-<!--        </div>-->
-<!--      </div>-->
-<!--    </div>-->
-<!--  </footer>-->
+  <footer class="progress-bar">
+    <div class="content">
+      <div class="top">
+        <div class="logo-details">
+          <i class="fab fa-slack"></i>
+          <span class="logo_name">MADOCHO SACCO</span>
+        </div>
+        <div class="media-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>

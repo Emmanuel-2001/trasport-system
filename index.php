@@ -17,14 +17,14 @@
 
 <body>
 
-    <header id="header" class="fixed-top bg-success">
+    <header id="header" class="fixed-top ">
         <div class="container d-flex align-items-center">
 
           <h1 class="logo me-auto"><a href="index.php"><img class=" rounded-circle" alt="Loading"
                                                             height="60" src="images/logo.png" width="50"></a></h1>
           <nav id="navbar" class="navbar order-last order-lg-0">
             <ul>
-              <li><a class="fa fa-home" href="index.php">Home</a></li>
+<!--              <li><a class="fa fa-home" href="index.php">Home</a></li>-->
             </ul>   </nav>
                 <i class="bi bi-list mobile-nav-toggle"></i>
                 <a href="logina.php" class="appointment-btn scrollto"><span class="d-none d-md-inline">login</span>
@@ -134,28 +134,23 @@
         </div>
       </div>
     </section><!-- End About Section -->
-    <div id="featured">
-        <div id="items">
-            <div class="item"> <a href="main-course.php"><img src="xres/images/01_featured.jpg" alt="" /></a>
-                <h3><a href="main-course.php">Specials Offers</a></h3>
-                <p><a href="#"><strong>springers Bus</strong><br />
-                        Come in and experience<br /> Our
-                        new Bus Type<br /> specials today!</a></p>
-            </div>
-            <div class="item"> <a href="#"><img src="xres/images/02_featured.jpg" alt="" /></a>
-                <h3><a href="#">New Route</a></h3>
-                <p><a href="#"><strong>from Nairobi to Konza and vice-versa</strong><br />
-                        Spend a relaxing evening in our madocho hotels. </a></p>
-            </div>
-            <div class="item" style="width: 860px;">
-            <div id="footer">
-	<h4>+254-768976971 &bull; <a href="contact-us.php">kitui town, Nairobi, Machakos town  </a></h4>
-	<p class="text-info">Hours of Operation&nbsp;&nbsp;&bull;&nbsp;&nbsp;Mon - Sun: 6:00 am - 6:00 pm</p>
-	<a href="index.php"><img src="xres/images/footer-log.jpg" alt="Madocho Sacco" /></a>
-	<p>&copy; Copyright fairchild 2022 | All Rights Reserved <br /></p>
-</div>
-</div>
-       </div>
-   </div>
+
 </body>
+<footer class="progress-bar">
+    <div class="content">
+        <div class="top">
+            <div class="logo-details">
+                <i class="fab fa-slack"></i>
+                <span class="logo_name">MADOCHO SACCO</span>
+            </div>
+            <div class="media-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
 </html>

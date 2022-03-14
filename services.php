@@ -109,14 +109,26 @@
       </div>
 
     </div>
-  </section> <div id="footer" class="center">
-      <h4 class="text-danger">+254-768976971 &bull; <a href="contact-us.php"> <i class="text-warning">kitui town, Nairobi, Machakos town</i>  </a></h4>
-      <p class="text-info">Hours of Operation&nbsp;&nbsp;&bull;&nbsp;&nbsp;Mon - Sun: 6:00 am - 6:00 pm</p>
-      <a href="index.php"><img src="xres/images/footer-log.jpg" alt="Madocho Sacco" /></a>
-      <p class="text-dark">&copy; Copyright fairchild 2022 | All Rights Reserved <br /></p>
-  </div>
+  </section>
 
 </body>
+<footer class="progress-bar">
+    <div class="content">
+        <div class="top">
+            <div class="logo-details">
+                <i class="fab fa-slack"></i>
+                <span class="logo_name">MADOCHO SACCO</span>
+            </div>
+            <div class="media-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
 
 <script>
   let nav = document.querySelector("nav");

@@ -1,27 +1,49 @@
 <?php
-if(isset($_POST["submit"])){
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "ticket";
+//Start session
+session_start();
 
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-// Check connection
-if ($conn->connect_error) {
-die("Connection failed: " . $conn->connect_error);
+//Connect to mysql server
+require "db.php";
+
+//Function to sanitize values received from the form. Prevents SQL injection
+function clean($str) {
+    $str = @trim($str);
+    if(get_magic_quotes_gpc()) {
+        $str = stripslashes($str);
+    }
+    return mysqli_real_escape_string($str);
 }
 
-$sql = "INSERT INTO contact (fullName,PhoneNumber,Subject,message)
-VALUES ('".$_POST["fullName"]."','".$_POST["phoneNumber"]."','".$_POST["subject"]."','".$_POST["message"]."')";
+//Sanitize the POST values
+$login = ($_POST['emailAddress']);
+$password = ($_POST['password']);
 
-if ($conn->query($sql) === TRUE) {
-echo "<script type= 'text/javascript'>alert('Sent successfully ');</script>";
-echo "<script type='text/javascript'>location.href = 'contact.php';</script>";
-} else {
-echo "<script type= 'text/javascript'>alert('Error: " . $sql . "<br>" . $conn->error."');</script>";
-}
-
-$conn->close();
+//Create query
+$qry="SELECT * FROM users WHERE emailAddress='$login' AND password='$password'";
+$result=mysqli_query($conn,$qry);
+//while($row = mysqli_fetch_array($result))
+//  {
+//  $level=$row['position'];
+//  }
+//Check whether the query was successful or not
+if($result) {
+    if(mysqli_num_rows($result) > 0) {
+        //Login Successful
+        session_regenerate_id();
+        $member = mysqli_fetch_assoc($result);
+        $_SESSION['SESS_MEMBER_ID'] = $member['id'];
+        $_SESSION['SESS_FIRST_NAME'] = $member['emailAddress'];
+        session_write_close();
+        //if ($level="admin"){
+        header("location: contact.php");
+        exit();
+    }else {
+        //Login failed
+        echo "wrong password";
+        header("location: logina.php");
+        exit();
+    }
+}else {
+    die("Query failed");
 }
 ?>

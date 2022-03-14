@@ -27,9 +27,18 @@ unset($_SESSION['SESS_MEMBER_ID']);
         <h1>Login</h1>
 
         <hr>
-
+        	<?php
+						include('db.php');
+						$result = mysqli_query($conn,"SELECT * FROM users");
+						while($row = mysqli_fetch_array($result))
+                        {
+                            echo '<option value="'.$row['id'].'">';
+                             $row['emailAddress'].'  :'.$row['password'];
+                            echo '</option>';
+                        }
+            ?>
         <label for="email" class="float-start"><b>E-mail address</b></label>
-        <input class="rounded-pill" type="text" placeholder="enter youremail" name="mail" required>
+        <input class="rounded-pill" type="text" placeholder="enter your email" name="mail" required>
 
         <label for="psw" class="float-start"><b>Password</b></label><label class="float-end"><a href="#ggg" class="text-primary">Forgot Password?</a></label>
         <input class="rounded-pill" type="password" placeholder="enter password" name="password" required>
@@ -69,8 +78,6 @@ if(isset($_POST["submit"])){
     else{
         echo "server not connected";
     }
-    $sql = "INSERT INTO user ( fullName, emailAddress,password)
-VALUES ('".$_POST["fullName"]."','".$_POST["emailAddress"]."','".$_POST["storepass"]."')";
 
     if ($conn->query($sql) === TRUE) {
         echo "<script type= 'text/javascript'>alert('Sent successfully ');</script>";
