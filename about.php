@@ -27,13 +27,9 @@
           <li><a class="fas fa-info-circle" href="about.php">About</a></li>
           <li><a class="fa fa-server" href="services.php">Services</a></li>
           <li><a class="fas fa-road" href="routes.php">Routes</a></li>
-          <li><a class="fa fa-phone-square" href="contact.php"> Contact</a></li>
         </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav>
 
-      <a href="book.php" class="appointment-btn scrollto"><span class="d-none d-md-inline">book</span>
-        now</a>
+      </nav>
 
     </div>
   </header>
@@ -51,8 +47,33 @@
 
           </div>
     </section>
+    <section id="about" class="about">-->
+              <div class="container-fluid">
 
-    <!-- ======= STAFF Section ======= -->
+                <div class="row">
+                  <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative">
+                    <a href="https://youtu.be/68oEZgBUg6I" class="glightbox play-btn mb-4"></a>
+                  </div>
+
+                  <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
+                    <h3 class="text-primary center">Our location </h3>
+                    <p class="text-dark"> We have several stations within. Main office is at Kitui town opposite the bus park.
+                        We also have another office at Machakos at the main entarance of the bus park
+                    and ,,,</p>
+                      <h3 class="text-primary center">Working hours </h3>
+                      <p class="text-dark">We start our work as from 06.00 A.M to 07.00 P.M </p>
+                      <h3 class="text-primary center">Experience </h3>
+                      <p class="text-dark">This Sacco started in the year 2012 as a small coporative and we
+                          work hard upto date making it one of the best and famous in the country </p>
+                      <h3 class="text-primary center">Our motto </h3>
+                      <p class="text-dark">Hard work pays </p>
+                  </div>
+                </div>
+              </div>
+            </section><!-- End About Section -->
+
+
+        <!-- ======= STAFF Section ======= -->
     <section id="ABOUT US" class="STAFF">
       <div class="container">
 
